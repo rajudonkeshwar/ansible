@@ -2,7 +2,7 @@
   hosts: web
   become: yes # -b
   tasks:
-  - name: install nginx
+  - name: install java
     ansible.builtin.package:
-      name: nginx
+      name: java
       state: present
