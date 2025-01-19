@@ -1,4 +1,5 @@
 - name: install packages
+  connection: local
   hosts: local
   become: yes
   tasks:
